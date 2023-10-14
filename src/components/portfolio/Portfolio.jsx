@@ -11,7 +11,15 @@ import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpg'
 import IMG10 from '../../assets/portfolio10.png'
 import IMG11 from '../../assets/portfolio11.jpg'
+import IMG12 from '../../assets/portfolio12.png'
 const data =[
+  {
+    id:12,
+    image:IMG12,
+    title:'3d Portfolio - ReactJs and ThreeJs',
+    github:'',
+    demo:''
+  },
   {
     id:1,
     image:IMG1,
