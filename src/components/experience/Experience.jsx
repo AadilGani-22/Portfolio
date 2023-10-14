@@ -9,11 +9,12 @@ import {SiExpress} from 'react-icons/si'
 import {LiaNodeJs} from 'react-icons/lia'
 import {DiNodejs} from 'react-icons/di'
 import {DiJavascript1} from 'react-icons/di'
-import {BiLogoJavascript} from 'react-icons/bi'
+// import {BiLogoJavascript} from 'react-icons/bi'
 import {SiMysql} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 import {SiCplusplus} from 'react-icons/si'
 import {BiLogoPython} from 'react-icons/bi'
+import {BiLogoRedux} from 'react-icons/bi'
 
 const Experience = () => {
   return (
@@ -67,11 +68,11 @@ const Experience = () => {
             </div>
           </article>
           <article className="experience__details">
-            <BiLogoJavascript className='experience__details-icon' />
+            <BiLogoRedux className='experience__details-icon' />
             <div>
 
-            <h4>Javascript</h4>
-            <small className='text-light'>Intermidiate</small>
+            <h4>Redux</h4>
+            <small className='text-light'>Beginner</small>
             </div>
           </article>
           <article className="experience__details">

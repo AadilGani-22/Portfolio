@@ -22,7 +22,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2nd at Web-dev Competion</small>
+              <small>Worked on 20+ project</small>
             </article>
             <article className="about__card">
               <FaUsers className='about__icon'/>
@@ -31,8 +31,8 @@ const about = () => {
             </article>
             <article className="about__card">
               <HiLightBulb className='about__icon'/>
-              <h5>Projects</h5>
-              <small>Worked on 20+ projects</small>
+              <h5>Awards</h5>
+              <small>2nd place at Web-Dev Compition </small>
             </article>
           </div>
           <p>
