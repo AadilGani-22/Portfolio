@@ -12,9 +12,13 @@ import {DiJavascript1} from 'react-icons/di'
 // import {BiLogoJavascript} from 'react-icons/bi'
 import {SiMysql} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
+import {SiTailwindcss} from 'react-icons/si'
+import {SiTypescript} from 'react-icons/si'
 import {SiCplusplus} from 'react-icons/si'
 import {BiLogoPython} from 'react-icons/bi'
 import {BiLogoRedux} from 'react-icons/bi'
+import {BiLogoFirebase} from 'react-icons/bi'
+import {TbApi} from 'react-icons/tb'
 
 const Experience = () => {
   return (
@@ -41,9 +45,23 @@ const Experience = () => {
             </div>
           </article>
           <article className="experience__details">
+            <SiTailwindcss className='experience__details-icon' />
+            <div>
+            <h4>TailWind-CSS</h4>
+            <small className='text-light'>Intermidiate</small>
+            </div>
+          </article>
+          <article className="experience__details">
             <FaBootstrap className='experience__details-icon' />
             <div>
             <h4>Bootstrap</h4>
+            <small className='text-light'>Intermidiate</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BiLogoRedux className='experience__details-icon' />
+            <div>
+            <h4>Redux</h4>
             <small className='text-light'>Intermidiate</small>
             </div>
           </article>
@@ -68,17 +86,16 @@ const Experience = () => {
             </div>
           </article>
           <article className="experience__details">
-            <BiLogoRedux className='experience__details-icon' />
+            <BiLogoFirebase className='experience__details-icon' />
             <div>
 
-            <h4>Redux</h4>
+            <h4>FireBase</h4>
             <small className='text-light'>Beginner</small>
             </div>
           </article>
           <article className="experience__details">
             <LiaNodeJs className='experience__details-icon' />
             <div>
-
             <h4>Embedded JS</h4>
             <small className='text-light'>Intermidiate</small>
             </div>
@@ -86,8 +103,21 @@ const Experience = () => {
           <article className="experience__details">
             <SiExpress className='experience__details-icon' />
             <div>
-
             <h4>Express</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <SiTypescript className='experience__details-icon' />
+            <div>
+            <h4>TypeScript</h4>
+            <small className='text-light'>Beginner</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <TbApi className='experience__details-icon' />
+            <div>
+            <h4>REST-API</h4>
             <small className='text-light'>Intermediate</small>
             </div>
           </article>
